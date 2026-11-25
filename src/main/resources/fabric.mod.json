@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "neonvisuals",
+  "version": "${version}",
+  "name": "Neon Visuals",
+  "description": "Neonowe efekty wizualne tylko po stronie klienta: chiński kapelusz, ślad, efekty trafienia i zabicia, neonowy celownik i znak wodny.",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.neonvisuals.NeonClient"]
+  },
+  "mixins": ["neonvisuals.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
